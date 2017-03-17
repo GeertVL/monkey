@@ -5,8 +5,8 @@ import (
 	"bufio"
 	"fmt"
 	"github.com/geertvl/monkey/lexer"
-	"github.com/geertvl/monkey/token"
 	"github.com/geertvl/monkey/parser"
+	"github.com/geertvl/monkey/evaluator"
 )
 
 const PROMPT = ">> "
@@ -31,8 +31,11 @@ func Start(in io.Reader, out io.Writer) {
 			continue
 		}
 
-		io.WriteString(out, program.String())
-		io.WriteString(out, "\n")
+		evaluated := evaluator.Eval(program)
+		if evaluated != nil {
+			io.WriteString(out, evaluated.Inspect())
+			io.WriteString(out, "\n")
+		}
 	}
 }
 
