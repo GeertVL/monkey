@@ -1,0 +1,33 @@
+<component name="libraryTable">
+  <library name="GOPATH &lt;monkey&gt;">
+    <CLASSES>
+      <root url="file://$PROJECT_DIR$/../../../htmlnet" />
+      <root url="file://$PROJECT_DIR$/../../../cloudtest" />
+      <root url="file://$PROJECT_DIR$/../../../trials" />
+      <root url="file://$PROJECT_DIR$/../../../gopkg.in" />
+      <root url="file://$PROJECT_DIR$/../.." />
+      <root url="file://$PROJECT_DIR$/../../../fetch" />
+      <root url="file://$PROJECT_DIR$/../../../golang.org" />
+      <root url="file://$PROJECT_DIR$/../../../sourcegraph.com" />
+      <root url="file://$PROJECT_DIR$/../../../stringsvc1" />
+      <root url="file://$PROJECT_DIR$/../../../gogo-service" />
+      <root url="file://$PROJECT_DIR$/../../../rollthedice" />
+    </CLASSES>
+    <SOURCES>
+      <root url="file://$PROJECT_DIR$/../../../htmlnet" />
+      <root url="file://$PROJECT_DIR$/../../../cloudtest" />
+      <root url="file://$PROJECT_DIR$/../../../trials" />
+      <root url="file://$PROJECT_DIR$/../../../gopkg.in" />
+      <root url="file://$PROJECT_DIR$/../.." />
+      <root url="file://$PROJECT_DIR$/../../../fetch" />
+      <root url="file://$PROJECT_DIR$/../../../golang.org" />
+      <root url="file://$PROJECT_DIR$/../../../sourcegraph.com" />
+      <root url="file://$PROJECT_DIR$/../../../stringsvc1" />
+      <root url="file://$PROJECT_DIR$/../../../gogo-service" />
+      <root url="file://$PROJECT_DIR$/../../../rollthedice" />
+    </SOURCES>
+    <excluded>
+      <root url="file://$PROJECT_DIR$" />
+    </excluded>
+  </library>
+</component>
